@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerador de QR Code - SophiaLabs</title>
+    <link rel="icon" href="./assets/img/logo_sophia.ico" type="image/x-icon">
+    <script type="text/javascript" src="https://unpkg.com/qr-code-styling@1.5.0/lib/qr-code-styling.js"></script>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <meta name="description" content="SophiaLabs oferece um gerador de QR Code online com opções de personalização. Crie QR Codes com logo e baixe rapidamente.">
+    <meta name="keywords" content="SophiaLabs, Gerador de QR Code, QR Code personalizado, Sophia Labs">
+    <meta name="author" content="SophiaLabs">
+    <link rel="canonical" href="https://www.sophialabs.com.br/gerador-qrcode">
+    <meta property="og:title" content="Gerador de QR Code Online - SophiaLabs">
+    <meta property="og:description" content="Crie QR Codes personalizados com logo usando SophiaLabs. Gere e baixe seu QR Code rapidamente.">
+    <meta property="og:image" content="https://www.sophialabs.com.br/assets/img/logo_sophia.png">
+    <meta property="og:url" content="https://www.sophialabs.com.br/gerador-qrcode">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Gerador de QR Code Online - SophiaLabs">
+    <meta name="twitter:description" content="Gere QR Codes personalizados com SophiaLabs de maneira rápida e fácil.">
+    <meta name="twitter:image" content="https://www.sophialabs.com.br/assets/img/logo_sophia.png">
+</head>
+<body>
+    <!-- Navbar com logotipo e nome da empresa -->
+    <header>
+        <div class="navbar">
+            <a href="https://www.sophialabs.com.br" target="_blank" class="logo-container">
+                <img src="./assets/img/logo_sophia.png" alt="Logotipo da SophiaLabs">
+                <span class="brand-name">SophiaLabs</span>
+            </a>
+        </div>
+    </header>
+
+    <!-- Container principal -->
+    <div class="container">
+        <h1>Gerador de QR Code - SophiaLabs</h1>
+        <p>Insira o texto ou URL abaixo para gerar e baixar seu QR Code personalizado.</p>
+        <input type="text" id="text" placeholder="Digite o texto ou URL">
+        <button onclick="generateQRCode()">Gerar QR Code</button>
+        <div id="canvas"></div>
+        <a id="downloadLink">Baixar QR Code</a>
+    </div>
+
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
