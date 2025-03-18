@@ -3,7 +3,7 @@ const qrCode = new QRCodeStyling({
     height: 300,
     type: "svg",
     data: "",
-    image: "https://www.sophialabs.com.br/assets/img/logo_sophia.png",
+    image: "https://github.com/SophiaLab/qrcode/blob/main/assets/img/logo_sophia.png",
     dotsOptions: {
         color: "#000",
         type: "rounded"
